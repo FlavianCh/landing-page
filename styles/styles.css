@@ -10,10 +10,21 @@
     font-family: 'Roboto', serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body{
+    display: flex;
+    flex: 1;
+}
+
 .header{
     display: flex;
     background-color: #1F2937;
-    height: 60px;
+    padding: 20px;
     align-items: center;
 }
 
@@ -21,12 +32,13 @@
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
-    margin-right: auto;
+    margin: 0 auto 0 10%;
 }
 
 .header-right{
     display: flex;
     gap: 24px;
+    margin: 0 10% 0 auto;
 }
 
 a{
@@ -44,7 +56,7 @@ a{
 .footer{
     display: flex;
     background-color: #1F2937;
-    height: 60px;
+    padding: 20px;
     align-items: center;
     justify-content: center;
 }
