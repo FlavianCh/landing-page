@@ -159,6 +159,34 @@ a{
 
 .signup{
     background-color: #F9F8FA;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 120px;
+}
+
+.signup-container{
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    width: 1000px;
+    padding: 40px 120px;
+    align-items: center;
+}
+
+.signup-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.signup-maintext{
+    color: #F9F8FA;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.white-border{
+    border-color: #F9FAF8;
 }
 
 .footer{
